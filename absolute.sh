@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir /tmp/hello\ world/
+mkdir -p /tmp/hello\ world/
 touch /tmp/hello\ world/absolute.txt
 echo "Hello world!" > /tmp/hello\ world/absolute.txt
 cat /tmp/hello\ world/absolute.txt
